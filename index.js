@@ -21,9 +21,10 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  return function() {
+  return function innerFunction() {
     return "FUNKY!"
   }
 }
 var theFunk = funkyFunction()
-return (function)
+theFunk('innerFUnction')
+
