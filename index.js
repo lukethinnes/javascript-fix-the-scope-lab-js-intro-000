@@ -26,4 +26,5 @@ var funkyFunction = function() {
   }
 }
 var theFunk = funkyFunction()
-theFunk('innerFUnction')
+innerFunction()
+theFunk()
